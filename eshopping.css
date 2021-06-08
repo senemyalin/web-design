@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+p{
+    /*border: 8px dotted indianred;*/
+    color: #989797;
+}
+
+table, th, td{
+    font-family: "Footlight MT Light";
+    text-align: center;
+    /*etrafındaki cizgi*/
+    border: 2px solid black;
+}
+table{
+    margin-left:20px;
+    margin-top: 15px;
+}
+th{
+    color: #6f42c1;
+}
+th, td{
+    /*space of the element top and bottom*/
+    padding: 20px;
+}
+td{
+    font-family: "monospace";
+}
+
+#totalPrice{
+    margin-left: 50px;
+}
+
+#homeid . adding{
+    visibility: hidden;
+
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #55d6aa;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: top;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.p {
+    color: grey;
+}
